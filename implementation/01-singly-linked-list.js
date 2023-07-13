@@ -75,7 +75,7 @@ class SinglyLinkedList {
             return removed;
         }
         // Write your hypothesis on the time complexity of this method here
-        //O(1)
+        //O(N)
     }
 
     peekAtHead() {
@@ -84,6 +84,7 @@ class SinglyLinkedList {
             return this.head.value;
         }
         // Write your hypothesis on the time complexity of this method here
+        //O(1)
     }
 
     print() {
